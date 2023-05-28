@@ -1,0 +1,119 @@
+*{
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fffefe;
+    background-image: 
+      linear-gradient(rgba(216, 213, 213, 0.4)1px, transparent 1px),
+      linear-gradient(90deg, rgba(216, 213, 213, 0.4) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.content {
+    width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+legend {
+    border: solid 1px black;
+    padding-right: 20px;
+    text-align: left;
+    background-color: white; 
+}
+
+fieldset {
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+#firstName,
+#lastName,
+#email {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    text-align: center;
+}
+
+.status-section.content {
+    display: flex;
+    flex-direction: row;
+}
+.status-section .status input {
+    width: 90px; 
+}
+.status-section .date input {
+    width: 90px; 
+}
+
+p{
+    width: 200px;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    text-align: center;
+}
+
+div.favorite-language {
+    display: flex;
+    justify-content: space-around;
+}
+
+div.favorite-language label {
+    margin-right: 10px;
+}
+
+.comments-column {
+    text-align: left;
+}
+
+div.checkbox-column {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: white;
+    border: solid 0.1px grey;
+    padding: 0 20px;
+}
+
+
+
+.signup, .terms {
+    width: 70px;
+    font-size:10px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.checkbox-column{
+    margin-left: 30px;
+}
+
+.checkbox-column input[type="checkbox"] {
+    width: 18px; 
+    height: 18px;
+}
